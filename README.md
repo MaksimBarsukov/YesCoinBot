@@ -55,6 +55,7 @@
 
 # Windows
 ~/YesCoinBot >>> python -m venv venv
+~/YesCoinBot >>> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ~/YesCoinBot >>> venv\Scripts\activate
 ~/YesCoinBot >>> pip install -r requirements.txt
 ~/YesCoinBot >>> copy .env-example .env
